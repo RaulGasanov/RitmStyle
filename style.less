@@ -1,0 +1,331 @@
+@color-accent: #018ABE;
+@color-grey: #8E8E8E;
+@background-color: #162831;
+@color-light-blue: #98C9DC;
+@color-yellow: #F0A410;
+
+:root {
+    font-size: 16px !important;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul, p, h1, h2, h3, figure, figcaption {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: both
+}
+
+body {
+    background-color: #162831;
+    font-family: 'Proxima Nova', sans-serif;
+    margin: 0;
+    width: 100%;
+}
+
+header.head-top {
+    padding: 30px 0 0 0;
+
+    nav a {
+        color: white;
+
+        &:hover {
+            color: @color-yellow;
+        }
+    }
+}
+
+.navbar-font {
+    font-size: 0.875rem;
+}
+
+.rectangle {
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 600;
+    font-size: 0.8125rem;
+    width: 155px;
+    height: 36px;
+    background: @color-accent;
+    color: white;
+    border-radius: 6px;
+    margin-right: 12px;
+
+    &:hover {
+        color: @color-yellow;
+        text-decoration: underline;
+    }
+}
+
+main div > .container-center {
+    position: relative;
+}
+
+main div section:first-of-type p {
+    position: absolute;
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    top: 26%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main div section:first-of-type .wing-left {
+    margin-right: 66px;
+    margin-bottom: 5px;
+}
+
+main div section:first-of-type .wing-right {
+    margin-left: 66px;
+    margin-bottom: 5px;
+}
+
+main div section:first-of-type h2 {
+    position: absolute;
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 140%;
+    text-align: center;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main div section .sessions {
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 700;
+    font-size: 2.625rem;
+    line-height: 140%;
+    text-align: center;
+    color: white;
+    margin-top: 110px;
+    margin-bottom: 100px;
+}
+
+main div section .sessions svg path {
+    fill: @color-accent;
+}
+
+main div section .sessions svg {
+    margin-right: 38px;
+    margin-left: 38px;
+}
+
+.four-elements {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+main div section .sessions-reviews {
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 700;
+    font-size: 2.625rem;
+    line-height: 140%;
+    text-align: center;
+    color: white;
+    margin-top: 115px;
+    margin-bottom: 100px;
+}
+
+main div section .sessions-reviews svg path {
+    fill: @color-accent;
+}
+
+main div section .sessions-reviews svg {
+    margin-right: 38px;
+    margin-left: 38px;
+
+    path {
+        fill: @color-accent;
+    }
+}
+
+.surprise {
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 700;
+    font-size: 1.313rem;
+    line-height: 140%;
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+}
+
+main div section .wings-prices svg {
+    width: 18px;
+    height: 9px;
+
+    path {
+        fill: @color-accent;
+    }
+}
+
+.prices {
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-left: 20px;
+}
+
+.fixed-prices {
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 140%;
+    color: white;
+    margin-bottom: 31px;
+}
+
+.main-wings-prices,
+.main-fixed-prices {
+    margin-top: 70px;
+}
+
+.left-wings-prices {
+    margin-bottom: 31px;
+}
+
+.about-RitmStyle {
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 140%;
+    color: white;
+    padding-bottom: 30px;
+
+    &-text {
+        font-family: 'Proxima Nova', sans-serif;
+        font-weight: 300;
+        font-size: 1rem;
+        line-height: 140%;
+        color: white;
+    }
+}
+
+.about-information {
+    padding-right: 41px;
+}
+
+.about-information-2 {
+    padding-left: 5px;
+}
+
+.reverse-block {
+    padding-top: 100px;
+    padding-right: 24px;
+}
+
+.carousel-image-1 {
+    position: relative;
+    margin: auto;
+}
+
+.carousel-image-2 {
+    position: relative;
+    margin: auto;
+}
+
+.carousel-image-3 {
+    position: relative;
+    margin: auto;
+}
+
+.carousel-indicators {
+    margin-bottom: -3rem;
+}
+
+.carousel-h3 {
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 140%;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.carousel-items-main {
+    position: absolute;
+    z-index: 3;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 50px;
+}
+
+.carousel-p {
+    font-family: 'Proxima Nova', sans-serif;
+    font-weight: 300;
+    font-size: 0.875rem;
+    line-height: 140%;
+    color: white;
+}
+
+iframe {
+    overflow: hidden;
+    border-radius: 10px;
+    width: 100%;
+    height: 604px;
+}
+
+.address {
+    width: 100%;
+    height: 18.125rem;
+    margin-bottom: 24px;
+    background: @color-accent;
+    border-radius: 10px;
+
+    .p-text-1 {
+        font-family: 'El Messiri', sans-serif;
+        font-weight: 700;
+        font-size: 1.5rem;
+        color: white;
+        padding: 35px 0 0 45px;
+    }
+
+    .p-text-main {
+        font-family: 'Proxima Nova', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #FFFFFF;
+        margin: 20px 0 0 45px;
+    }
+
+    .rectangle-footer {
+        font-family: 'Proxima Nova', sans-serif;
+        font-weight: 600;
+        font-size: 0.8125rem;
+        background-color: white;
+        color: @color-accent;
+        border-radius: 6px;
+        width: 155px;
+        height: 36px;
+        margin: 0 auto;
+    }
+}
+
+.p-text-2 {
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: white;
+    padding: 35px 0 0 45px;
+}

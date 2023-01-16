@@ -1,0 +1,147 @@
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .container {
+        max-width: 745px;
+    }
+
+    .for-media-address {
+        padding-top: 15px;
+        gap: 15px;
+    }
+
+    main div section .sessions {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    main div section .sessions-991 {
+        margin-top: 90px;
+        margin-bottom: 30px;
+    }
+
+    .footer-media {
+        padding-top: 7px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .rectangle {
+        margin-left: auto;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .p-text-2 {
+        font-family: 'El Messiri', sans-serif;
+        font-weight: 700;
+        font-size: 1.375rem;
+        color: white;
+        padding: 35px 0 6px 30px;
+    }
+
+    .about-RitmStyle-text {
+        white-space: nowrap; /* Текст не переносится */
+        overflow: hidden; /* Обрезаем всё за пределами блока */
+        text-overflow: ellipsis; /* Добавляем многоточие */
+    }
+
+    .about-information-2 {
+        padding-left: 13px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .for-media-address-up {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .for-media-address-up {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    main div section:first-of-type h2 {
+        font-size: 3.5rem;
+        line-height: 120%;
+    }
+
+    main div section:first-of-type p {
+        font-size: 1.25rem;
+    }
+
+    .for-media-img {
+        width: 302px !important;
+    }
+
+    .for-media-four-elements-img {
+        width: 49%;
+    }
+
+    .four-elements {
+        gap: 24px;
+    }
+
+    .for-media-session {
+        gap: 16px;
+    }
+
+    .carousel-items-main {
+        top: 50%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    main div section:first-of-type h2 {
+        font-size: 3.25rem;
+        line-height: 100%;
+        padding-top: 30px;
+    }
+
+    main div section:first-of-type p {
+        font-size: 1.25rem;
+        max-width: 30% !important;
+    }
+
+    main div section .wing-left {
+        margin-right: 52px;
+        margin-bottom: 5px;
+    }
+
+    main div section .wing-right {
+        margin-left: 52px;
+        margin-bottom: 5px;
+    }
+
+    .for-media-img {
+        width: 231px !important;
+    }
+
+    .for-media-session {
+        gap: 23px !important;
+    }
+
+    .four-elements {
+        gap: 28px;
+    }
+
+    .for-media-four-elements-img {
+        width: 47% !important;
+    }
+}
+
+@media screen and (max-width: 1399px) {
+    .for-media-img {
+        width: 356px;
+    }
+
+    .four-elements {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .for-media-four-elements-img {
+        width: 48%;
+    }
+}
